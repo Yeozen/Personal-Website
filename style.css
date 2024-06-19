@@ -100,7 +100,7 @@ footer p {
     position: relative;
     transform: none;
     top: 30px;
-    transform: translateX(-55%);
+    text-align: center;
     width: 90%;
     height: 300px;
     padding-bottom: 50px; /* Add this line */
