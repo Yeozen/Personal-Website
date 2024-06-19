@@ -96,24 +96,21 @@ footer p {
 
 
   .carousel-caption {
-    position: relative;
-    transform: none;
-    top: 30px;
-    text-align: center;
+    color: #000 !important;
+    bottom: auto;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
     width: 90%;
-    height: 300px;
-    padding-bottom: 50px; /* Add this line */
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: auto;
   }
 
   .carousel-caption h5{
     text-align: center;
   }
 
-  .carousel-caption p{
-    text-align: justify;
-    height: 30px;
-    
-  }
     
 
   .carousel-indicators li {
