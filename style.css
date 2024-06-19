@@ -3,6 +3,7 @@
 }
 
 body {
+  width: 100%;
   overflow-x: hidden;
 }
 
@@ -78,34 +79,48 @@ footer p {
 
 @media (max-width: 768px) {
 
-  .carousel-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    margin: 0 auto 10px;
+  .carousel {
+    height: 400px;
   }
 
-  .carousel-item {
-    position: relative;
+  .carousel-item img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 20px;
   }
-  
+
+  .carousel-item .ForestPoint-item {
+    transform: translateY(50px);
+  }
+
+
   .carousel-caption {
     position: relative;
     transform: none;
-    bottom: 0;
+    top: 30px;
+    transform: translateX(-55%);
+    width: 90%;
+    height: 300px;
+    padding-bottom: 50px; /* Add this line */
+  }
+
+  .carousel-caption h5{
     text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    margin-bottom: 50px;
+  }
+
+  .carousel-caption p{
+    text-align: justify;
+    height: 30px;
     
   }
+    
 
   .carousel-indicators li {
     position: relative;
     background-color: black;
-    transform: 3;
+    transform: translateY(65px);
 }
 }
 
